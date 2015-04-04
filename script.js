@@ -53,7 +53,7 @@ $(document).ready(function(){
 		// go left
 		if (e.keyCode == 37){
 			if (world[(pacman.y*10) + (pacman.x-1)] === 0){
-				pacman.x = pacman.x + 1 
+				pacman.x = pacman.x 
 			}
 			else{
 				pacman.x = pacman.x - 1  
@@ -62,7 +62,7 @@ $(document).ready(function(){
 		// go right
 		else if (e.keyCode == 39){
 			if (world[(pacman.y*10) + (pacman.x+1)] === 0){
-				pacman.x = pacman.x - 1 
+				pacman.x = pacman.x
 			}
 			else{
 				pacman.x = pacman.x + 1   
@@ -73,7 +73,7 @@ $(document).ready(function(){
 			// console.log("pacman.y*10", pacman.y*10)
 			// console.log("pacman.x", pacman.x)
 			if (world[((pacman.y*10)-10) + (pacman.x)] === 0){
-				pacman.y = pacman.y + 1 
+				pacman.y = pacman.y
 			}
 			else{
 				pacman.y = pacman.y - 1   
@@ -82,7 +82,7 @@ $(document).ready(function(){
 		// go down
 		else {
 			if (world[((pacman.y*10)+10) + (pacman.x)] === 0){
-				pacman.y = pacman.y - 1 
+				pacman.y = pacman.y
 			}
 			else{
 				pacman.y = pacman.y + 1   
