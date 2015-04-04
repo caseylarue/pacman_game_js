@@ -1,0 +1,41 @@
+/** {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}*/
+
+#container {
+	background-color: black;
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+.brick {
+	background-color: blue;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	/*display: inline-block;*/
+}
+.coin {
+	background-image: url('coin.png');
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	/*display: inline-block;*/	
+}
+.pacman {
+	background-image: url('pacman.gif');
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	/*display: inline-block;*/	
+}
+.blank {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	/*display: inline-block;	*/
+}
